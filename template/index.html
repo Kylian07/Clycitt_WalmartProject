@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/walmart.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <title>Walmart</title>
+    <style>
+            * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+    .header {
+        background-color: rgb(199, 241, 179);
+        color: black;
+        border: none;
+        height: 8rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 0;
+        vertical-align: top;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+
+
+    }
+
+    .slider {
+        width: 100%;
+        height: 8rem;
+        overflow: hidden;
+        position: relative;
+        }
+
+        .slides {
+        display: flex;
+        width: 100%; /* 3 images * 100% */
+        animation: slide 12s infinite linear;
+        }
+
+        .slides img {
+        width: 100%;
+        height: 8rem;
+        object-fit: cover;
+        flex-shrink: 0;
+        }
+
+        @keyframes slide {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-200%); } /* Move full width of 2 images */
+        }
+    .image-container {
+        /* position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 40rem;
+    overflow: hidden; */
+        position: relative;
+
+    }
+
+    .image-container img {
+        height: 40rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .details {
+        /* position: absolute; */
+        background-color: transparent;
+        color: white;
+        display: flex;
+        /* padding-top: 0.3rem; */
+
+
+    }
+
+    .login-side {
+        flex: 1;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        /* width: 300px; */
+        background-color: transparent;
+        /* padding-left: 40rem; */
+        margin-right: 1.5rem;
+        flex-shrink: 0;
+    }
+
+    .language {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .cart {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .sign-in {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .create-account {
+        font-size: 1.1rem;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        border-radius: 2rem;
+        /* background-color:white; */
+        background-color: rgb(255, 255, 255, 0.5);
+        color: black;
+        font-weight: bold;
+        border: solid;
+        border-color: green;
+        border-width: 3px;
+        margin-left: 1rem;
+        cursor: pointer;
+
+    }
+
+    .details2 {
+        display: flex;
+        color: white;
+        padding-top: 0;
+        font-size: 1.1rem;
+
+
+    }
+
+    .ecommerce {
+        font-size: 4rem;
+        background-color: transparent;
+        padding-top: 8rem;
+        color: white;
+        font-weight: bold;
+        padding-left: 3rem;
+        width: 50rem;
+        line-height: 4.5rem;
+        display: flex;
+        flex: 1;
+    }
+
+    .search-place {
+        padding-top: 2rem;
+        display: flex;
+        flex: 1;
+        padding-left: 3rem;
+
+        background-color: pink;
+    }
+
+    .search-bar {
+        margin-left: 3rem;
+        flex: 1;
+        width: 40rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        border-radius: 2rem;
+        background-color: rgb(255, 255, 255, 0.5);
+        font-size: 1.1rem;
+        /* position:relative; */
+        border-width: 6px;
+        border: solid;
+        color: white;
+        border-color: green;
+
+    }
+
+    .search-button {
+        padding-left: 3rem;
+        padding-right: 2rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        border-radius: 2rem;
+        font-size: 1.1rem;
+        background-color: rgb(255, 255, 255, 0.1);
+        font-weight: bold;
+        border: solid;
+        border-width: 4px;
+        border-left-width: 0;
+        color: white;
+        font-family: Indie Flower, cursive;
+        font-weight: 400;
+        font-style: normal;
+        /* position:sticky; */
+        border: none;
+
+
+    }
+
+    .frequently-search {
+        display: flex;
+        /* position: absolute; */
+        background-color: transparent;
+        padding-top: 1.5rem;
+        padding-left: 3rem;
+        color: white;
+        font-size: 1.1rem;
+
+    }
+
+    /* background-color:rgb(212, 208, 186); */
+
+
+
+
+        .progressing-bar::-webkit-slider-runnable-track {
+            background: transparent;
+            border-radius: 100px;
+            height: 0.5rem;
+        }
+
+        .progressing-bar::-webkit-slider-thumb {
+            appearance: none;
+            height: 1.3rem;
+            width: 1.3rem;
+            border-radius: 50%;
+            background-color: yellow;
+            margin-top: -5.5px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Firefox */
+        .progressing-bar::-moz-range-track {
+            background: transparent;
+            height: 0.5rem;
+            border-radius: 100px;
+        }
+
+        .progressing-bar::-moz-range-thumb {
+            height: 1.3rem;
+            width: 1.3rem;
+            border-radius: 50%;
+            background-color: yellow;
+            cursor: pointer;
+        }
+        .card-wrapper{
+        max-width: 2200px;
+        margin : 0 60px 35px;
+        padding: 20px 10px;
+        overflow: hidden;
+    }
+    .card-list .card-item{
+        list-style: none;
+    }
+    .card-list .card-item .card-link{
+        /* width:300px; */
+        user-select: none;
+        display: block;
+        background: #fff;;
+        padding: 18px;
+        border-radius: 12px;
+        text-decoration: none;
+        border: 2px solid transparent;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+        transition : 0.25 ease;
+
+    }
+
+    .card-list .card-item .card-link:active{
+        cursor: grabbing;
+    }
+
+    .card-list .card-item .card-link:hover{
+        border-color: #5372F0;
+
+    }
+
+    .card-list .card-link .card-image{
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 10px;
+    }
+
+    .card-list .card-link .badge{
+        color:#5372F0;
+        margin: 16px 0 18px;
+        padding: 8px 16px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        background: #DDE4FF;
+        width: fit-content;
+        border-radius: 50px;
+    }
+    .card-list .card-link .badge.img12{
+        color: #b22485;
+        background: #f7dff5;
+    }
+    .card-list .card-link .badge.img13{
+        color: #B25A2B;
+        background: #FFE3D2;
+    }
+
+    .card-list .card-link .badge.img14{
+        color: #205c20;
+        background: #D6f8d6;
+    }
+
+    .card-list .card-link .badge.img15{
+        color: #856404;
+        background: #fff3cd;
+    }
+
+    .card-list .card-link .card-title{
+        font-size: 1.19rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .card-list .card-link .card-button{
+        height: 35px;
+        width: 35px;
+        color:#5372F0;
+        border-radius:50%;
+        margin: 30px 0 5px;
+        background:none;
+        cursor: pointer;
+        transform: rotate(-45deg);
+        border: 2px solid #5372F0;
+        transition: 0.4s ease;
+    }
+
+    .card-list .card-link:hover .card-button{
+        color: #fff;
+        background: #5372F0;
+    } 
+
+    /* .card-wrapper .swiper-pignation-bullet{ */
+    .card-wrapper .swiper-pagination-bullet { 
+
+        height: 13px;
+        width: 13px;
+        opacity: 0.5;
+        background: #5372F0;
+
+    }
+
+    /* .card-wrapper .swiper-pignation-bullet-active{ */
+    .card-wrapper .swiper-pagination-bullet-active { 
+        opacity: 1;
+    }
+
+    .card-wrapper .swiper-slide-button {
+        color: #5372F0;
+        margin-top: -35px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .card-wrapper{
+            margin: 0 10px 25px;
+        }
+        .card-wrapper .swiper-slide-button {
+            display: none;
+        }
+    }
+
+   .container{
+        margin:5rem 0;
+        background-color: rgb(251, 244, 227);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(#ECEFFE, #CED6FB);
+        
+    }
+
+  swiper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0;
+  width:100% ;
+}
+
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <div>
+        <div class="header ">
+             
+            <!-- <img style="width:100%;object-fit:cover" src="/static/res/img40.jpeg" alt=""> -->
+            <div class="slider">
+                <!-- <div class="slider"> -->
+                    <div class="slides">
+                        <img src="/static/res/img40.jpeg" alt="Slide 1">
+                        <img style="object-position:top" src="/static/res/img45.jpeg" alt="Slide 2">
+                        <img src="/static/res/img40.jpeg" alt="Slide 3">
+                    </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+
+        <div class="image-container">
+            <img src="/static/res/img36.jpeg" alt="Fashion image">
+        </div>
+
+{% if point %}
+<style>
+#rangeSlider {
+  width: 90%;
+  appearance: none;
+  margin-top: -12rem;
+  height: 0.5rem;
+  outline: none;
+  border-radius: 5px;
+  background: "linear-gradient(to right, #4caf50 {{ point }}%, #ddd {{ point }}%)";
+  position: relative;
+  z-index: 10;
+}
+</style>
+
+<div style="background-color: transparent; width: 15rem; position: absolute; top: 27rem; right: 1rem;">
+    <div style="color: #fff; font-size: 20px; font-weight: bold;">Your available points {{ point }}</div>
+  <!-- <input 
+    type="range" 
+    min="0" 
+    max="100" 
+    step="1"
+    id="rangeSlider"
+    value="{{ point }}">
+</div> -->
+{% endif %}
+
+
+
+</div>
+ <script>
+            const slider = document.getElementById("rangeSlider");
+
+            function updateSliderBackground() {
+                const val = slider.value;
+                const min = slider.min;
+                const max = slider.max;
+                const percent = ((val - min) / (max - min)) * 100;
+
+                slider.style.background = `linear-gradient(to right, yellow ${percent}%, white ${percent}%)`;
+            }
+
+            // Initial state
+            updateSliderBackground();
+
+            // Update on input
+            slider.addEventListener('input', updateSliderBackground);
+        </script>
+
+
+
+        <div style="position:absolute;top:8rem;right:0;left:0;bottom:3rem">
+            <div style=" 
+            background-color:transparent;
+            color: white;
+            display: flex;
+
+            flex-direction:row;">
+                <div style="padding-left:3rem;width:400px;justify-content:center;
+                font-size:3rem;font-weight:bold;background-color:transparent;
+                  font-family: Knewave, system-ui;
+  font-weight: 300;
+  font-style: normal;">
+                    <p>
+                        ClyckiTT.com
+                    </p>
+                </div>
+
+                <div class="login-side">
+                    <!-- <div style="display: flex;margin-left:1rem"> -->
+                    <div style="margin-right: 1.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-translate" viewBox="0 0 16 16">
+                            <path
+                                d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z" />
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31" />
+                        </svg>
+                        <button class="language">Language</button>
+                    </div>
+                    
+                    <div style="margin-right: 1.5rem;">
+
+                        <button class="language"><a href="/sell">Sell</a></button>
+                    </div>
+
+
+                    <!-- </div> -->
+                    <!-- <div style="display: flex; margin-left:1rem"> -->
+                    <div style="margin-right: 1.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                        <button class="cart"> Cart</button>
+                    </div>
+
+                    <!-- </div> -->
+                    <!-- <div style="display: flex; margin-left:1rem"> -->
+                    <div style="margin-right: 1.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                        </svg>
+                        <button class="sign-in">Sign in</button>
+                    </div>
+
+                    <!-- </div> -->
+                    <div>
+                        <button class="create-account">Create account</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="details2">
+                <div style="margin-left: 3rem;
+                width: 500px;background-color:transparent">
+                    <button style="background-color: transparent;
+                       border:none;color:white">All categories</button>
+                    <button style="background-color: transparent;
+                       border:none;color:white;margin-left:1rem">Featured section</button>
+                    <button style="background-color: transparent;
+                       border:none;color:white;margin-left:1rem">Order protections</button>
+                </div>
+
+                <div style="flex:1;display:flex; background-color:transparent;
+                justify-content:end;
+                 flex-shrink: 0;
+                 margin-right:13rem">
+                    <button style="background-color: transparent;
+                       border:none;color:white;margin-left:1rem">Ai sourcing agent </button>
+
+                    <button style="background-color: transparent;
+                       border:none;color:white;margin-left:1rem">
+                        Help Center
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="ecommerce">
+                The leading Ecommerce platform
+            </div>
+            <form action="/search" method="get">
+            <div style="display: flex;
+            margin-top:3rem">
+                <div style="position:relative;color:white;">
+                    <!-- <input class="search-bar" type="text" placeholder="search your product"> -->
+                     <input class="search-bar" type="text" placeholder="search your product" name="search">
+                    <div style="position:absolute;left:34.1rem;top:0.3rem;">
+                        <button class="search-button">search</button>
+                    </div>
+                </div>
+                <!-- <img style="height:2rem;
+                margin-left:-8.3rem;margin-top:1.2rem;z-index:100" src="//static/res/img11.png" alt=""> -->
+                <div style="width: 400px;;background-color:transparent;">
+
+                </div>
+                <div style="flex:1;background-color:transparent;display:flex;justify-content:end;">
+                    <button
+                        style="border-radius: 8rem; padding-left:0;padding-right:0;border:none;background-color:white;opacity:1;margin-right:6rem">
+                        <img style="height:4rem" src="/static/res/img35.png" alt="">
+                    </button>
+                </div>
+            </div>
+            </form>
+
+
+            <div class="frequently-search">
+                <div style="padding-top:0.5rem;">
+                    Frequently searched:
+                </div>
+                <div style="padding-left:2rem">
+                    <button style="background-color: transparent; color:white ; border:solid; border-color:white;padding: 0.2rem 1rem 0.2rem 1rem;
+                    border-radius:2rem">
+                        cargo
+                    </button>
+                </div>
+                <div style="padding-left:2rem">
+                    <button style="background-color: transparent; border-color:white;color:white ; border:solid; padding: 0.2rem 1rem 0.2rem 1rem;
+                    border-radius:2rem">
+                        jeans
+                    </button>
+                </div>
+                <div style="padding-left:2rem">
+                    <button style="background-color: transparent; border-color:white;color:white ; border:solid; padding: 0.2rem 1rem 0.2rem 1rem;
+                    border-radius:2rem">t-shirt</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {% if product_list %}
+    <div style="background-color: #4b2f1f; ">
+      
+        <div class="swiper" style="width: 100%; padding: 0; margin: 0;">
+            <div class="card-wrapper swiper-slide-button ">
+                <ul class="card-list swiper-wrapper">
+                     {% for product in product_list %}
+                    <li class="card-item swiper-slide">
+                        <a href="/product/{{ product.id }}" class="card-link">
+                            <img src="{{ product.image_url }}" alt="Card image" class="card-image">
+                            <p class="badge img18">{{ product.carbon_footprint_kg }} Kg</p>
+                            <h2 class="card-title">{{ product.description }}
+                            </h2>
+                            <button class="card-button material-symbols-rounded">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    {% endfor %}
+
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      
+
+
+
+        <script>
+            new Swiper('.card-wrapper', {
+  
+  loop: true,
+  spaceBetween:30,  
+
+  // pagination bullets 
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+    Bullets: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  breakpoints: {
+    0: {
+        slidesPerView: 1
+    },
+    768: {
+        slidesPerView: 2
+    },
+    1024: {
+        slidesPerView: 3
+    },
+    1280: {
+    slidesPerView: 4
+  },
+   
+  }
+});
+        </script>
+
+    </div>
+    {% endif %}
+ 
+   
+</body>
+
+</html>

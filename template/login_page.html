@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="static/login.css"> -->
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('/static/res/img36.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            object-fit: cover;
+        }
+
+        .gradient-custom-2 {
+            background: transparent !important;
+        }
+
+        .left-section {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            margin: 0;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .right-section {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            margin: 0;
+            height: 90vh;
+
+        }
+
+        .right-section>div>div {
+            margin: 20px;
+            padding: 30px;
+        }
+
+
+        .right-section>div>div>form>div {
+            margin-bottom: 30px;
+        }
+
+
+        .form-control {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid white;
+            color: white;
+            border-radius: 0;
+        }
+
+        .form-control:focus {
+            background: transparent;
+            color: white;
+            outline: none;
+
+            border-color: inherit;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+
+
+
+        .form-control:-webkit-autofill,
+        .form-control:-webkit-autofill:focus,
+        .form-control:-webkit-autofill:hover,
+        .form-control:-webkit-autofill:active {
+            background: transparent !important;
+            -webkit-background-clip: text;
+            -webkit-background-origin: inherit;
+            color: white !important;
+            border-color: inherit;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.632);
+            opacity: 0.7;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .right-section>div>div {
+                margin: 5px;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            .right-section>div>div>form>div {
+                margin-bottom: 8px;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            /* .left-section {
+                min-height: 15vh;
+                max-height: 20vh;
+            }
+
+            .right-section {
+                min-height: 25vh;
+                max-height: 70vh;
+            } */
+
+            .right-section>div>div {
+                margin: 5px;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            .right-section>div>div>form>div {
+                margin-bottom: 5px;
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            .left-section {
+                min-height: 25vh;
+                max-height: 50vh;
+            }
+
+            .right-section {
+                min-height: 25vh;
+                max-height: 75vh;
+            }
+
+            .right-section>div>div {
+                margin: 5px;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            .right-section>div>div>form>div {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+   
+    <section class="h-75 gradient-form  ">
+        <div class="container py-5 h-75">
+            <div class="row d-flex justify-content-center align-items-center h-75">
+                <div class="col-xl-10">
+                    <div class="rounded-3">
+                        <div class="row align-items-center justify-content-center g-0">
+                            <div class="left-section col-lg-6">
+                                <div class=" d-flex gradient-custom-2">
+                                    <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                                        <h4 class="mb-4">Lets Get Started</h4>
+                                        <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed
+                                            do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-section col-lg-6">
+                                <div class="card bg-transparent border-0" style="border-radius: 1rem;">
+                                    <div class="card-body text-light">
+
+                                        <div class="text-center align-self-start">
+                                            <h4 class="mt-1 mb-2 pb-1">Welcome to, ClyckiTT</h4>
+                                        </div>
+
+                                        <form method="post" action="/sell/" class="needs-validation" autocomplete="on" id="form_signup" novalidate>
+                                            {% csrf_token %}
+                                            <p class="mb-2">Enter product details</p>
+
+                                            <div data-mdb-input-init class="form-outline">
+                                                <label class="form-label" for="form2Example11">Product Name</label>
+                                                <input type="text" id="form2Example11" class="form-control"
+                                                    placeholder="Product Name" name="name" value="" required />
+                                                <div class="invalid-feedback">Please enter product name.</div>
+                                            </div>
+
+                                            <div data-mdb-input-init class="form-outline">
+                                                <label class="form-label" for="form2Example22">Product Material</label>
+                                                <input type="text" id="form2Example22" class="form-control"
+                                                    placeholder="Product Material" name="email" value="" required />
+                                                <div class="invalid-feedback">Please enter the material of the product</div>
+                                            </div>
+                                            <label class="form-label" for="password-tab">Estimated Cost</label>
+                                            <div class="input-group mb-3">
+
+                                                <input type="text" class="form-control" placeholder="Estimated Cost"
+                                                    id="password-tab" name="password" required />
+                
+                                                <div class="invalid-feedback">Please enter your estimated cost </div>
+                                            </div>
+
+                                            <div class="text-center pt-1 pb-1 mt-2">
+                                                <button data-mdb-button-init data-mdb-ripple-init
+                                                    class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
+                                                    type="submit" onclick="
+                                                    // document.getElementById('form_signup').submit();
+                                                    // document.getElementById('form_signup').style.display = 'none';
+                                                    // document.getElementById('form_otp').style.display = 'block';"
+                                                    >Submit</button>
+                                            </div>
+
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <p class="mb-0 me-2">Already have an account?</p>
+                                                <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                                    class="btn btn-outline-danger">Login</button>
+                                            </div>
+
+                                        </form>
+
+                                        <!-- <form method="POST" action="/signup" class="needs-validation mt-5" novalidate=""
+                                            autocomplete="off" id="form_otp" style="display: none;">
+                                            <label for="">OTP verification</label>
+                                            <input name="email" class="form-control" type="hidden"
+                                                value="<%= typeof email !== 'undefined' ? email : '' %>">
+                                            <div class="mb-3">
+                                                <div class="d-flex flex-row mt-2" id="otp">
+                                                    <input type="text" inputmode="numeric"
+                                                        class="form-control rounded m-2" name="otp1" maxlength="1"
+                                                        id="first" required />
+                                                    <input type="text" inputmode="numeric"
+                                                        class="form-control rounded m-2" name="otp2" maxlength="1"
+                                                        id="second" required />
+                                                    <input type="text" inputmode="numeric"
+                                                        class="form-control rounded m-2" name="otp3" maxlength="1"
+                                                        id="third" required />
+                                                    <input type="text" inputmode="numeric"
+                                                        class="form-control rounded m-2" name="otp4" maxlength="1"
+                                                        id="fourth" required />
+                                                </div>
+                                            </div>
+                                            <div class="invalid-feedback">Please enter a valid OTP.</div>
+                                            <div class="text-center pt-1 pb-1 mt-2">
+                                                <button data-mdb-button-init data-mdb-ripple-init
+                                                    class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
+                                                    type="submit">Submit</button>
+                                            </div>
+                                            <script>
+                                                document.addEventListener("DOMContentLoaded", function (event) {
+                                                    function OTPInput() {
+                                                        const inputs = document.querySelectorAll('#otp > *[id]');
+                                                        for (let i = 0; i < inputs.length; i++) {
+                                                            inputs[i].addEventListener('keydown', function (event) {
+                                                                if (event.key === "Backspace") {
+                                                                    inputs[i].value = '';
+                                                                    if (i !== 0) inputs[i - 1].focus();
+                                                                }
+                                                                else {
+                                                                    if (i === inputs.length - 1 && inputs[i].value !== '') {
+                                                                        return true;
+                                                                    }
+                                                                    else if (event.keyCode > 47 && event.keyCode < 58) {
+                                                                        inputs[i].value = event.key;
+                                                                        if (i !== inputs.length - 1) inputs[i + 1].focus();
+                                                                        event.preventDefault();
+                                                                    }
+                                                                    else if (event.keyCode > 64 && event.keyCode < 91) {
+                                                                        inputs[i].value = String.fromCharCode(event.keyCode);
+                                                                        if (i !== inputs.length - 1) inputs[i + 1].focus();
+                                                                        event.preventDefault();
+                                                                    }
+                                                                }
+                                                            });
+                                                        }
+                                                    } OTPInput();
+                                                });
+                                            </script>
+                                        </form> -->
+
+                                        <script>
+                                            (function () {
+                                                'use strict'
+
+                                                var forms = document.querySelectorAll('.needs-validation')
+
+                                                Array.prototype.slice.call(forms)
+                                                    .forEach(function (form) {
+                                                        form.addEventListener('submit', function (event) {
+                                                            if (!form.checkValidity()) {
+                                                                event.preventDefault()
+                                                                event.stopPropagation()
+                                                            }
+
+                                                            form.classList.add('was-validated')
+                                                        }, false)
+                                                    })
+                                            })()
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- </div> -->
+</body>
+</html>

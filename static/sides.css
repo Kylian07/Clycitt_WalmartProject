@@ -1,0 +1,30 @@
+.filterCol[data-v-bd99a1be] {
+    height: 80vh;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: sticky;
+    top: 60px;
+    scrollbar-width: thin;
+}
+
+
+.leftsidebar[data-v-d23d1cca] {
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.filtersection[data-v-d23d1cca] {
+    overflow-y: scroll;
+}
+
+@media (min-width: 1200px) {
+    .stickyfooter, .filteroptionsModal
+ {
+        position: static;
+    }
+}

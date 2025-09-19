@@ -1,0 +1,580 @@
+[
+    {
+        "id": 1459,
+        "name": "Men's Casual Linen Shirt | Half Sleeves",
+        "category": "Dresses",
+        "brand": "EcoStyle",
+        "image_url": "https://m.media-amazon.com/images/I/31CITMFzg1L.jpg",
+        "carbon_footprint_kg": 10.2,
+        "price": 499,
+        "materials": [
+            "Linen",
+            "Recycled Fibers"
+        ],
+        "features": [
+            "Eco Friendly",
+            "Lightweight"
+        ],
+        "color": "Beige",
+        "size": "L",
+        "description": "Stay cool with this breathable linen shirt, made from eco-conscious fabrics perfect for summer.",
+        "pattern": "Men's Casual Linen Shirt | Half Sleeves EcoStyle Dresses Eco Friendly Lightweight Beige Linen Recycled Fibers L Stay cool with this breathable linen shirt, made from eco-conscious fabrics perfect for summer."
+    },
+    {
+        "id": 1460,
+        "name": "Women's Organic Cotton Kurti | Floral Print",
+        "category": "Dresses",
+        "brand": "GreenWeaves",
+        "image_url": "https://m.media-amazon.com/images/I/71Ep9vopdyL._SY741_.jpg",
+        "carbon_footprint_kg": 9.8,
+        "price": 699,
+        "materials": [
+            "Organic Cotton"
+        ],
+        "features": [
+            "Handcrafted",
+            "Sustainable"
+        ],
+        "color": "Yellow",
+        "size": "M",
+        "description": "Traditional yet trendy floral kurti designed with 100% organic cotton and handcrafted precision.",
+        "pattern": "Women's Organic Cotton Kurti | Floral Print GreenWeaves Dresses Handcrafted Sustainable Yellow Organic Cotton M Traditional yet trendy floral kurti designed with 100% organic cotton and handcrafted precision."
+    },
+    {
+        "id": 1461,
+        "name": "Men's Bamboo T-Shirt | Breathable Fabric",
+        "category": "Dresses",
+        "brand": "BambooFit",
+        "image_url": "https://m.media-amazon.com/images/I/71LLwVdmsfL._SY741_.jpg",
+        "carbon_footprint_kg": 7.5,
+        "price": 599,
+        "materials": [
+            "Bamboo",
+            "Cotton Blend"
+        ],
+        "features": [
+            "Sweat Absorbent",
+            "Compostable Packaging"
+        ],
+        "color": "White",
+        "size": "S",
+        "description": "Ultra-soft and breathable bamboo t-shirt designed for all-day comfort and minimal impact.",
+        "pattern": "Men's Bamboo T-Shirt | Breathable Fabric BambooFit Dresses Sweat Absorbent Compostable Packaging White Bamboo Cotton Blend S Ultra-soft and breathable bamboo t-shirt designed for all-day comfort and minimal impact."
+    },
+    {
+        "id": 1462,
+        "name": "Women's Hemp Blazer | Formal Wear",
+        "category": "Dresses",
+        "brand": "NatureForm",
+        "image_url": "https://m.media-amazon.com/images/I/51FVeS4xOwL._SY741_.jpg",
+        "carbon_footprint_kg": 11.4,
+        "price": 1499,
+        "materials": [
+            "Hemp",
+            "Recycled Polyester"
+        ],
+        "features": [
+            "Vegan",
+            "Durable"
+        ],
+        "color": "Charcoal Grey",
+        "size": "M",
+        "description": "Chic and powerful hemp blazer tailored for modern professionals who care for the planet.",
+        "pattern": "Women's Hemp Blazer | Formal Wear NatureForm Dresses Vegan Durable Charcoal Grey Hemp Recycled Polyester M Chic and powerful hemp blazer tailored for modern professionals who care for the planet."
+    },
+    {
+        "id": 1463,
+        "name": "Kids' Recycled Cotton Hoodie | Unisex",
+        "category": "Kids Wear",
+        "brand": "GreenCub",
+        "image_url": "https://m.media-amazon.com/images/I/51Q71nGGLsL._SY741_.jpg",
+        "carbon_footprint_kg": 6.2,
+        "price": 499,
+        "materials": [
+            "Recycled Cotton"
+        ],
+        "features": [
+            "Hypoallergenic",
+            "Soft Touch"
+        ],
+        "color": "Sky Blue",
+        "size": "XS",
+        "description": "Soft, hypoallergenic recycled cotton hoodie for active kids with a heart for nature.",
+        "pattern": "Kids' Recycled Cotton Hoodie | Unisex GreenCub Kids Wear Hypoallergenic Soft Touch Sky Blue Recycled Cotton XS Soft, hypoallergenic recycled cotton hoodie for active kids with a heart for nature."
+    },
+    {
+        "id": 1464,
+        "name": "Men's Cotton Pajama Set | Soft Lounge Wear",
+        "category": "Sleepwear",
+        "brand": "EcoLounge",
+        "image_url": "https://m.media-amazon.com/images/I/61Hb3bjsJUL._SY741_.jpg",
+        "carbon_footprint_kg": 8.9,
+        "price": 699,
+        "materials": [
+            "Organic Cotton"
+        ],
+        "features": [
+            "Comfy Fit",
+            "Natural Dyes"
+        ],
+        "color": "Navy Blue",
+        "size": "L",
+        "description": "Relax in luxury with this pajama set crafted from soft, organic cotton and natural dyes.",
+        "pattern": "Men's Cotton Pajama Set | Soft Lounge Wear EcoLounge Sleepwear Comfy Fit Natural Dyes Navy Blue Organic Cotton L Relax in luxury with this pajama set crafted from soft, organic cotton and natural dyes."
+    },
+    {
+        "id": 1465,
+        "name": "Women's Khadi Cotton Saree | Handwoven",
+        "category": "Traditional",
+        "brand": "DesiRoots",
+        "image_url": "https://m.media-amazon.com/images/I/81iFtn3R2AL._SY741_.jpg",
+        "carbon_footprint_kg": 13.3,
+        "price": 1199,
+        "materials": [
+            "Khadi",
+            "Organic Cotton"
+        ],
+        "features": [
+            "Handloom",
+            "Fair Trade"
+        ],
+        "color": "Crimson Red",
+        "size": "Free Size",
+        "description": "Celebrate heritage with our handwoven Khadi saree, supporting rural artisans across India.",
+        "pattern": "Women's Khadi Cotton Saree | Handwoven DesiRoots Traditional Handloom Fair Trade Crimson Red Khadi Organic Cotton Free Size Celebrate heritage with our handwoven Khadi saree, supporting rural artisans across India."
+    },
+    {
+        "id": 1466,
+        "name": "Unisex Cotton Joggers | Green Label Edition",
+        "category": "Bottom Wear",
+        "brand": "EcoEdge",
+        "image_url": "https://m.media-amazon.com/images/I/6123UzAN0-L._SX679_.jpg",
+        "carbon_footprint_kg": 9.1,
+        "price": 749,
+        "materials": [
+            "Cotton",
+            "Recycled Fibers"
+        ],
+        "features": [
+            "Gender Neutral",
+            "Recyclable"
+        ],
+        "color": "Olive Green",
+        "size": "M",
+        "description": "Comfort meets sustainability with these unisex joggers designed for everyday eco-living.",
+        "pattern": "Unisex Cotton Joggers | Green Label Edition EcoEdge Bottom Wear Gender Neutral Recyclable Olive Green Cotton Recycled Fibers M Comfort meets sustainability with these unisex joggers designed for everyday eco-living."
+    },
+    {
+        "id": 1467,
+        "name": "Men's Tencel Polo T-Shirt | Moisture Wicking",
+        "category": "T-Shirts",
+        "brand": "SoftWear",
+        "image_url": "https://m.media-amazon.com/images/I/61Fh0EZ3oYL._SY741_.jpg",
+        "carbon_footprint_kg": 8.0,
+        "price": 649,
+        "materials": [
+            "Tencel",
+            "Organic Cotton"
+        ],
+        "features": [
+            "Cooling Tech",
+            "Plant-Based"
+        ],
+        "color": "Mint Green",
+        "size": "M",
+        "description": "Premium Tencel polo offering active moisture-wicking and ultra-soft texture for daily wear.",
+        "pattern": "Men's Tencel Polo T-Shirt | Moisture Wicking SoftWear T-Shirts Cooling Tech Plant-Based Mint Green Tencel Organic Cotton M Premium Tencel polo offering active moisture-wicking and ultra-soft texture for daily wear."
+    },
+    {
+        "id": 1468,
+        "name": "Women's Recycled Denim Jacket | Casual Fit",
+        "category": "Outerwear",
+        "brand": "ReJean",
+        "image_url": "https://m.media-amazon.com/images/I/81ifW-zuoOL._SY741_.jpg",
+        "carbon_footprint_kg": 12.5,
+        "price": 999,
+        "materials": [
+            "Recycled Denim"
+        ],
+        "features": [
+            "Zero Water Wastage",
+            "Upcycled"
+        ],
+        "color": "Classic Blue",
+        "size": "S",
+        "description": "Trend-forward recycled denim jacket with zero-waste production process and vintage charm.",
+        "pattern": "Women's Recycled Denim Jacket | Casual Fit ReJean Outerwear Zero Water Wastage Upcycled Classic Blue Recycled Denim S Trend-forward recycled denim jacket with zero-waste production process and vintage charm."
+    },
+    {
+        "id": 1469,
+        "name": "Men's Woolen Overcoat | Winter Essentials",
+        "category": "Winter Wear",
+        "brand": "WarmNest",
+        "image_url": "https://m.media-amazon.com/images/I/61v5zCenCiL._SY741_.jpg",
+        "carbon_footprint_kg": 15.0,
+        "price": 1799,
+        "materials": [
+            "Sustainable Wool",
+            "Cotton Lining"
+        ],
+        "features": [
+            "Heat Retention",
+            "Eco Wool"
+        ],
+        "color": "Maroon",
+        "size": "L",
+        "description": "Sophisticated wool overcoat that keeps you warm while reducing environmental impact.",
+        "pattern": "Men's Woolen Overcoat | Winter Essentials WarmNest Winter Wear Heat Retention Eco Wool Maroon Sustainable Wool Cotton Lining L Sophisticated wool overcoat that keeps you warm while reducing environmental impact."
+    },
+    {
+        "id": 1470,
+        "name": "Boys' Organic Shorts | Animal Print",
+        "category": "Kids Wear",
+        "brand": "TinyPlanet",
+        "image_url": "https://m.media-amazon.com/images/I/81X8mwVEHyL._SY741_.jpg",
+        "carbon_footprint_kg": 5.5,
+        "price": 349,
+        "materials": [
+            "Organic Cotton"
+        ],
+        "features": [
+            "Fun Prints",
+            "Child-Safe Inks"
+        ],
+        "color": "Light Green",
+        "size": "XS",
+        "description": "Organic cotton shorts for kids featuring playful animal prints and toxin-free colors.",
+        "pattern": "Boys' Organic Shorts | Animal Print TinyPlanet Kids Wear Fun Prints Child-Safe Inks Light Green Organic Cotton XS Organic cotton shorts for kids featuring playful animal prints and toxin-free colors."
+    },
+    {
+        "id": 1471,
+        "name": "Women's Bamboo Leggings | High Waist",
+        "category": "Bottom Wear",
+        "brand": "GreenCurve",
+        "image_url": "https://m.media-amazon.com/images/I/41FNI0PAvcL._SX679_.jpg",
+        "carbon_footprint_kg": 7.8,
+        "price": 599,
+        "materials": [
+            "Bamboo Fiber"
+        ],
+        "features": [
+            "Stretch Fit",
+            "Anti-Bacterial"
+        ],
+        "color": "Black",
+        "size": "M",
+        "description": "Flexible and soft bamboo leggings made to support movement while being kind to nature.",
+        "pattern": "Women's Bamboo Leggings | High Waist GreenCurve Bottom Wear Stretch Fit Anti-Bacterial Black Bamboo Fiber M Flexible and soft bamboo leggings made to support movement while being kind to nature."
+    },
+    {
+        "id": 1472,
+        "name": "Men's Jute Slippers | Indoor Comfort",
+        "category": "Footwear",
+        "brand": "SoleGreen",
+        "image_url": "https://m.media-amazon.com/images/I/610EakbGlhL._SY695_.jpg",
+        "carbon_footprint_kg": 3.9,
+        "price": 299,
+        "materials": [
+            "Jute",
+            "Natural Rubber"
+        ],
+        "features": [
+            "Biodegradable",
+            "Handmade"
+        ],
+        "color": "Brown",
+        "size": "9",
+        "description": "Eco-conscious jute slippers handcrafted for supreme indoor comfort and minimal footprint.",
+        "pattern": "Men's Jute Slippers | Indoor Comfort SoleGreen Footwear Biodegradable Handmade Brown Jute Natural Rubber 9 Eco-conscious jute slippers handcrafted for supreme indoor comfort and minimal footprint."
+    },
+    {
+        "id": 1474,
+        "name": "Unisex Eco Hoodie | Zip-Up Design",
+        "category": "Outerwear",
+        "brand": "PlanetWear",
+        "image_url": "https://m.media-amazon.com/images/I/41cDsbZQtEL.jpg",
+        "carbon_footprint_kg": 10.0,
+        "price": 849,
+        "materials": [
+            "Organic Cotton",
+            "Hemp Blend"
+        ],
+        "features": [
+            "Zip Pockets",
+            "Low Water Use"
+        ],
+        "color": "Steel Grey",
+        "size": "L",
+        "description": "A sustainable hoodie for all seasons, built with a hemp blend for added durability and eco-score.",
+        "pattern": "Unisex Eco Hoodie | Zip-Up Design PlanetWear Outerwear Zip Pockets Low Water Use Steel Grey Organic Cotton Hemp Blend L A sustainable hoodie for all seasons, built with a hemp blend for added durability and eco-score."
+    },
+    {
+        "id": 1475,
+        "name": "Men's Organic Vest | Gym Ready",
+        "category": "Activewear",
+        "brand": "FitGreen",
+        "image_url": "https://m.media-amazon.com/images/I/512TgU9R2UL._SY879_.jpg",
+        "carbon_footprint_kg": 6.1,
+        "price": 379,
+        "materials": [
+            "Organic Cotton"
+        ],
+        "features": [
+            "Stretchable",
+            "Breathable"
+        ],
+        "color": "Dark Grey",
+        "size": "M",
+        "description": "Train responsibly with this eco-friendly gym vest that keeps you fresh and dry during workouts.",
+        "pattern": "Men's Organic Vest | Gym Ready FitGreen Activewear Stretchable Breathable Dark Grey Organic Cotton M Train responsibly with this eco-friendly gym vest that keeps you fresh and dry during workouts."
+    },
+    {
+        "id": 1476,
+        "name": "Women's Cotton Scarf | Hand-Dyed",
+        "category": "Accessories",
+        "brand": "Thread & Leaf",
+        "image_url": "https://m.media-amazon.com/images/I/61trTjLsSZL._SY879_.jpg",
+        "carbon_footprint_kg": 2.1,
+        "price": 249,
+        "materials": [
+            "Organic Cotton"
+        ],
+        "features": [
+            "Natural Dye",
+            "Lightweight"
+        ],
+        "color": "Peach",
+        "size": "Free Size",
+        "description": "Elegant cotton scarf hand-dyed with botanical extracts for a timeless, earthy look.",
+        "pattern": "Women's Cotton Scarf | Hand-Dyed Thread & Leaf Accessories Natural Dye Lightweight Peach Organic Cotton Free Size Elegant cotton scarf hand-dyed with botanical extracts for a timeless, earthy look."
+    },
+    {
+        "id": 1477,
+        "name": "Men's Khadi Shorts | Summer Comfort",
+        "category": "Bottom Wear",
+        "brand": "DesiFit",
+        "image_url": "https://m.media-amazon.com/images/I/61WGyq-EnLL._SX679_.jpg",
+        "carbon_footprint_kg": 5.7,
+        "price": 459,
+        "materials": [
+            "Khadi Cotton"
+        ],
+        "features": [
+            "Breathable",
+            "Traditional Weave"
+        ],
+        "color": "Cream",
+        "size": "M",
+        "description": "Traditional meets modern in these breathable Khadi shorts \u00e2\u20ac\u201c perfect for India\u00e2\u20ac\u2122s tropical heat.",
+        "pattern": "Men's Khadi Shorts | Summer Comfort DesiFit Bottom Wear Breathable Traditional Weave Cream Khadi Cotton M Traditional meets modern in these breathable Khadi shorts \u00e2\u20ac\u201c perfect for India\u00e2\u20ac\u2122s tropical heat."
+    },
+    {
+        "id": 1478,
+        "name": "T-Shirt for Men | Round Neck | Pure Cotton",
+        "category": "T-Shirts",
+        "brand": "EcoWear",
+        "image_url": "https://m.media-amazon.com/images/I/615abIqbQUL._SY879_.jpg",
+        "carbon_footprint_kg": 9.5,
+        "price": 299,
+        "materials": [
+            "Cotton",
+            "Recycled Polyester"
+        ],
+        "features": [
+            "Eco-Friendly",
+            "Vegan"
+        ],
+        "color": "Navy Blue",
+        "size": "L",
+        "description": "Experience unmatched comfort with our breathable cotton T-shirt, perfect for everyday wear.",
+        "pattern": "T-Shirt for Men | Round Neck | Pure Cotton EcoWear T-Shirts Eco-Friendly Vegan Navy Blue Cotton Recycled Polyester L Experience unmatched comfort with our breathable cotton T-shirt, perfect for everyday wear."
+    },
+    {
+        "id": 1479,
+        "name": "Men's Slim Fit Chinos | Stretchable | Casual Wear",
+        "category": "Pants",
+        "brand": "GreenThreads",
+        "image_url": "https://m.media-amazon.com/images/I/71jfMhZZLQL._SY879_.jpg",
+        "carbon_footprint_kg": 17.2,
+        "price": 899,
+        "materials": [
+            "Organic Cotton",
+            "Elastane"
+        ],
+        "features": [
+            "Stretchable",
+            "Sustainable"
+        ],
+        "color": "Beige",
+        "size": "32",
+        "description": "Smart slim fit chinos made with sustainable materials for eco-conscious comfort and style.",
+        "pattern": "Men's Slim Fit Chinos | Stretchable | Casual Wear GreenThreads Pants Stretchable Sustainable Beige Organic Cotton Elastane 32 Smart slim fit chinos made with sustainable materials for eco-conscious comfort and style."
+    },
+    {
+        "id": 1480,
+        "name": "Casual T-Shirt | Unisex | Eco Printed",
+        "category": "T-Shirts",
+        "brand": "BioStyle",
+        "image_url": "https://m.media-amazon.com/images/I/61KK0MafUPL._SX679_.jpg",
+        "carbon_footprint_kg": 8.8,
+        "price": 349,
+        "materials": [
+            "Bamboo Fiber",
+            "Cotton"
+        ],
+        "features": [
+            "Vegan",
+            "Eco Printed"
+        ],
+        "color": "White",
+        "size": "S",
+        "description": "Eco-printed with non-toxic dyes, this lightweight T-shirt offers both fashion and sustainability.",
+        "pattern": "Casual T-Shirt | Unisex | Eco Printed BioStyle T-Shirts Vegan Eco Printed White Bamboo Fiber Cotton S Eco-printed with non-toxic dyes, this lightweight T-shirt offers both fashion and sustainability."
+    },
+    {
+        "id": 1481,
+        "name": "Formal Shirt for Men | Wrinkle-Free | Cotton Blend",
+        "category": "Dresses",
+        "brand": "Classico",
+        "image_url": "https://m.media-amazon.com/images/I/71n4WIs6nPL._SY879_.jpg",
+        "carbon_footprint_kg": 13.7,
+        "price": 649,
+        "materials": [
+            "Cotton",
+            "Polyester"
+        ],
+        "features": [
+            "Wrinkle-Free",
+            "Recyclable"
+        ],
+        "color": "Sky Blue",
+        "size": "M",
+        "description": "Elevate your professional look with our wrinkle-resistant formal shirt made from a comfortable cotton blend.",
+        "pattern": "Formal Shirt for Men | Wrinkle-Free | Cotton Blend Classico Dresses Wrinkle-Free Recyclable Sky Blue Cotton Polyester M Elevate your professional look with our wrinkle-resistant formal shirt made from a comfortable cotton blend."
+    },
+    {
+        "id": 1482,
+        "name": "Casual Pants | Drawstring | Lightweight",
+        "category": "Pants",
+        "brand": "EcoUrban",
+        "image_url": "https://m.media-amazon.com/images/I/61mwNI+EUhL._SX569_.jpg",
+        "carbon_footprint_kg": 15.9,
+        "price": 749,
+        "materials": [
+            "Organic Cotton",
+            "Linen"
+        ],
+        "features": [
+            "Breathable",
+            "Sustainable"
+        ],
+        "color": "Olive",
+        "size": "34",
+        "description": "Designed for relaxed weekends, our casual pants are light, breathable, and responsibly made.",
+        "pattern": "Casual Pants | Drawstring | Lightweight EcoUrban Pants Breathable Sustainable Olive Organic Cotton Linen 34 Designed for relaxed weekends, our casual pants are light, breathable, and responsibly made."
+    },
+    {
+        "id": 1483,
+        "name": "Half Sleeve Shirt | Cotton | Slim Fit",
+        "category": "Dresses",
+        "brand": "NatureWear",
+        "image_url": "https://m.media-amazon.com/images/I/61xmvX9VdeL._SY741_.jpg",
+        "carbon_footprint_kg": 12.3,
+        "price": 459,
+        "materials": [
+            "Cotton",
+            "Hemp"
+        ],
+        "features": [
+            "Slim Fit",
+            "Plant-Based"
+        ],
+        "color": "Light Grey",
+        "size": "M",
+        "description": "Stay cool and stylish with our half-sleeve slim fit hemp-cotton blend shirt.",
+        "pattern": "Half Sleeve Shirt | Cotton | Slim Fit NatureWear Dresses Slim Fit Plant-Based Light Grey Cotton Hemp M Stay cool and stylish with our half-sleeve slim fit hemp-cotton blend shirt."
+    },
+    {
+        "id": 1484,
+        "name": "Men's Cargo Pants | Utility Pockets | Durable",
+        "category": "Pants",
+        "brand": "UrbanRoots",
+        "image_url": "https://m.media-amazon.com/images/I/51JFULYPqAL._SY741_.jpg",
+        "carbon_footprint_kg": 18.4,
+        "price": 999,
+        "materials": [
+            "Cotton",
+            "Recycled Nylon"
+        ],
+        "features": [
+            "Durable",
+            "Water-Resistant"
+        ],
+        "color": "Khaki",
+        "size": "36",
+        "description": "Adventure-ready cargo pants built to last with extra utility and recycled fibers.",
+        "pattern": "Men's Cargo Pants | Utility Pockets | Durable UrbanRoots Pants Durable Water-Resistant Khaki Cotton Recycled Nylon 36 Adventure-ready cargo pants built to last with extra utility and recycled fibers."
+    },
+    {
+        "id": 1485,
+        "name": "Plain T-Shirt for Men | Bio-Washed | Lightweight",
+        "category": "T-Shirts",
+        "brand": "EarthWear",
+        "image_url": "https://m.media-amazon.com/images/I/61-Hg4wfqpL._SY879_.jpg",
+        "carbon_footprint_kg": 9.1,
+        "price": 259,
+        "materials": [
+            "Organic Cotton"
+        ],
+        "features": [
+            "Bio-Washed",
+            "Soft Touch"
+        ],
+        "color": "Black",
+        "size": "M",
+        "description": "Soft-touch bio-washed t-shirt made from 100% organic cotton, perfect for all-day comfort.",
+        "pattern": "Plain T-Shirt for Men | Bio-Washed | Lightweight EarthWear T-Shirts Bio-Washed Soft Touch Black Organic Cotton M Soft-touch bio-washed t-shirt made from 100% organic cotton, perfect for all-day comfort."
+    },
+    {
+        "id": 1486,
+        "name": "Men's Casual Shirt | Checkered | Full Sleeve",
+        "category": "Dresses",
+        "brand": "ForestFab",
+        "image_url": "https://m.media-amazon.com/images/I/81Wt6rOkYkL._SY879_.jpg",
+        "carbon_footprint_kg": 14.9,
+        "price": 599,
+        "materials": [
+            "Cotton",
+            "Linen"
+        ],
+        "features": [
+            "Handmade",
+            "Eco-Friendly"
+        ],
+        "color": "Brown",
+        "size": "L",
+        "description": "Artisanal checkered shirt with a rustic finish made using traditional eco-conscious methods.",
+        "pattern": "Men's Casual Shirt | Checkered | Full Sleeve ForestFab Dresses Handmade Eco-Friendly Brown Cotton Linen L Artisanal checkered shirt with a rustic finish made using traditional eco-conscious methods."
+    },
+    {
+        "id": 1487,
+        "name": "Tapered Jogger Pants | Stretchable | Eco Fabric",
+        "category": "Pants",
+        "brand": "GrooveWear",
+        "image_url": "https://m.media-amazon.com/images/I/61ssgct9YQL._SY879_.jpg",
+        "carbon_footprint_kg": 16.0,
+        "price": 849,
+        "materials": [
+            "Cotton",
+            "Elastane"
+        ],
+        "features": [
+            "Elastic Waist",
+            "Low Emission"
+        ],
+        "color": "Charcoal",
+        "size": "M",
+        "description": "Tapered joggers built for movement and made with stretchy, low-impact fabric.",
+        "pattern": "Tapered Jogger Pants | Stretchable | Eco Fabric GrooveWear Pants Elastic Waist Low Emission Charcoal Cotton Elastane M Tapered joggers built for movement and made with stretchy, low-impact fabric."
+    }
+]

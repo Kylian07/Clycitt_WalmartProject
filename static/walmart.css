@@ -1,0 +1,245 @@
+.header {
+    background-color: rgb(199, 241, 179);
+    color: black;
+    border: none;
+    height: 8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    vertical-align: top;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+
+}
+
+.slider {
+      width: 100%;
+      height: 8rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slides {
+      display: flex;
+      width: 100%; /* 3 images * 100% */
+      animation: slide 12s infinite linear;
+    }
+
+    .slides img {
+      width: 100%;
+      height: 8rem;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-200%); } /* Move full width of 2 images */
+    }
+.image-container {
+    /* position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 40rem;
+  overflow: hidden; */
+    position: relative;
+
+}
+
+.image-container img {
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.details {
+    /* position: absolute; */
+    background-color: transparent;
+    color: white;
+    display: flex;
+    /* padding-top: 0.3rem; */
+
+
+}
+
+.login-side {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* width: 300px; */
+    background-color: transparent;
+    /* padding-left: 40rem; */
+    margin-right: 1.5rem;
+    flex-shrink: 0;
+}
+
+.language {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.cart {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.sign-in {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.create-account {
+    font-size: 1.1rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border-radius: 2rem;
+    /* background-color:white; */
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
+    font-weight: bold;
+    border: solid;
+    border-color: green;
+    border-width: 3px;
+    margin-left: 1rem;
+    cursor: pointer;
+
+}
+
+.details2 {
+    display: flex;
+    color: white;
+    padding-top: 0;
+    font-size: 1.1rem;
+
+
+}
+
+.ecommerce {
+    font-size: 4rem;
+    background-color: transparent;
+    padding-top: 8rem;
+    color: white;
+    font-weight: bold;
+    padding-left: 3rem;
+    width: 50rem;
+    line-height: 4.5rem;
+    display: flex;
+    flex: 1;
+}
+
+.search-place {
+    padding-top: 2rem;
+    display: flex;
+    flex: 1;
+    padding-left: 3rem;
+
+    background-color: pink;
+}
+
+.search-bar {
+    margin-left: 3rem;
+    flex: 1;
+    width: 40rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    /* position:relative; */
+    border-width: 6px;
+    border: solid;
+    color: white;
+    border-color: green;
+
+}
+
+.search-button {
+    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    background-color: rgb(255, 255, 255, 0.1);
+    font-weight: bold;
+    border: solid;
+    border-width: 4px;
+    border-left-width: 0;
+    color: white;
+    font-family: Indie Flower, cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* position:sticky; */
+    border: none;
+
+
+}
+
+.frequently-search {
+    display: flex;
+    /* position: absolute; */
+    background-color: transparent;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    color: white;
+    font-size: 1.1rem;
+
+}
+
+/* background-color:rgb(212, 208, 186); */
+
+
+
+.progressing-bar {
+        width: 90%;
+        appearance: none;
+        margin-top: -12rem;
+        background: linear-gradient(to right, rgb(255, 222, 10) 0%, white 0%);
+        border-radius: 100px;
+        height: 0.5rem;
+        outline: none;
+    }
+
+    .progressing-bar::-webkit-slider-runnable-track {
+        background: transparent;
+        border-radius: 100px;
+        height: 0.5rem;
+    }
+
+    .progressing-bar::-webkit-slider-thumb {
+        appearance: none;
+        height: 1.3rem;
+        width: 1.3rem;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-top: -5.5px;
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Firefox */
+    .progressing-bar::-moz-range-track {
+        background: transparent;
+        height: 0.5rem;
+        border-radius: 100px;
+    }
+
+    .progressing-bar::-moz-range-thumb {
+        height: 1.3rem;
+        width: 1.3rem;
+        border-radius: 50%;
+        background-color: yellow;
+        cursor: pointer;
+    }

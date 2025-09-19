@@ -1,0 +1,42 @@
+input{
+   width:20rem;
+   margin-top: 2rem; 
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: rgba(0,0,0,0) ;
+   border: none;
+   box-shadow: 0 1px 0 white;
+   color: white;
+   
+}
+
+.form-control{
+   width:20rem;
+   margin-top: 2rem; 
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: rgba(0,0,0,0) ;
+   border: none;
+   box-shadow: 0 1px 0 white;
+   color: white;
+}
+
+
+.sign-up2{
+    margin-top:2rem;
+    width: 20rem;
+    background-color: rgb(28, 145, 61);
+    color: white;
+    font-weight: bold;
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1.5rem;
+
+    
+}
